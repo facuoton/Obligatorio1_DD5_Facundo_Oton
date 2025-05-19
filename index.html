@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Probando</title>
+  <link rel="stylesheet" href="estilos.css" />
+</head>
+<body>
+  <header>
+    <a href="prueba.html">
+      <img src="img/Logo.png" alt="logo" />
+    </a>
+    <a href="prueba.html" id="hamb">
+      <img src="img/menu.png" alt="menú" />
+    </a>
+    <nav class="header-nav">
+      <a href="#">Inicio</a>
+      <a href="#">Proyectos</a>
+      <a href="#">Servicios</a>
+      <a href="#">Contacto</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="portada">
+      <div class="portada-texto">
+        <h1 class="portada-titulo">Tecnología cotidiana, futuro cercano</h1>
+        <p class="portada-desktop-texto">Una mirada al futuro en donde la tecnología es parte de lo cotidiano.</p>
+      </div>
+    </section>
+
+    <section class="formulario formulario-mobile">
+      <h2>¡Suscribite a nuestra newsletter!</h2>
+      <p>Enterate de todas las novedades del mundo de la tecnología.</p>
+      <form>
+        <input type="email" placeholder="ej:usuario@correo.com" required />
+        <select>
+          <option>Recibir información diaria.</option>
+          <option>Recibir información semanal.</option>
+          <option>Recibir información mensual.</option>
+        </select>
+        <button type="submit">Suscribirse</button>
+      </form>
+    </section>
+
+    <section class="bloques">
+      <div class="bloque imagen" id="bloque1"
+           style="background-image: url('img/terceraFoto.png');"
+           role="img" aria-label="Imagen bloque 1">
+      </div>
+
+      <div class="bloque imagen" id="bloque2"
+           style="background-image: url('img/primeraFoto.png');"
+           role="img" aria-label="Imagen bloque 2">
+      </div>
+
+      <div class="bloque gris" id="bloque3">
+        <h2>Encuentra más información sobre los productos del futuro</h2>
+        <button>Aquí</button>
+      </div>
+
+      <div class="bloque imagen" id="bloque4"
+           style="background-image: url('img/cuartaFoto.png');"
+           role="img" aria-label="Imagen bloque 4">
+      </div>
+
+      <div class="bloque imagen" id="bloque5"
+           style="background-image: url('img/segundaFoto.png');"
+           role="img" aria-label="Imagen bloque 5">
+      </div>
+
+      <div class="bloque gris bloque-extra" id="bloque6"
+           style="background-image: url('img/quintaFoto.png');"
+           role="img" aria-label="Imagen bloque extra">
+      </div>
+    </section>
+
+    <section class="tarjetas">
+      <h2>Noticias</h2>
+
+      <div class="tarjeta" id="tarjeta1">
+        <div class="tarjeta-imagen"
+             style="background-image: url('img/sextaFoto.png');"
+             role="img" aria-label="Imagen tarjeta 1: delivery del futuro">
+        </div>
+        <h3>Delivery del futuro</h3>
+        <p>Las entregas del futuro ya están en marcha: tecnología, eficiencia y sostenibilidad se combinan para transformar la logística urbana.</p>
+        <button>Ver más</button>
+      </div>
+
+      <div class="tarjeta" id="tarjeta2">
+        <div class="tarjeta-imagen"
+             style="background-image: url('img/septimaFoto.png');"
+             role="img" aria-label="Imagen tarjeta 2: domótica y casas inteligentes">
+        </div>
+        <h3>Domótica y casas inteligentes</h3>
+        <p>El hogar inteligente evoluciona: controlar el clima, la TV y más desde una sola pantalla ya es parte del día a día.</p>
+        <button>Ver más</button>
+      </div>
+
+      <div class="tarjeta" id="tarjeta3">
+        <div class="tarjeta-imagen"
+             style="background-image: url('img/octavaFoto.png');"
+             role="img" aria-label="Imagen tarjeta 3: análisis de datos en tiempo real">
+        </div>
+        <h3>Solo un vistazo.</h3>
+        <p>El análisis de datos en tiempo real impulsa la toma de decisiones modernas. Nuevas herramientas permiten visualizar el mundo con solo un clic.</p>
+        <button>Ver más</button>
+      </div>
+
+      <div class="tarjeta" id="tarjeta4">
+        <div class="tarjeta-imagen"
+             style="background-image: url('img/novenaFoto.png');"
+             role="img" aria-label="Imagen tarjeta 4: cocina del futuro">
+        </div>
+        <h3>Cocinar con inteligencia</h3>
+        <p>La cocina del futuro ya está entre nosotros: asistentes robóticos y recetas proyectadas agilizan cada paso del proceso.</p>
+        <button>Ver más</button>
+      </div>
+
+      <div class="tarjeta" id="tarjeta5">
+        <div class="tarjeta-imagen"
+             style="background-image: url('img/decimaFoto.png');"
+             role="img" aria-label="Imagen tarjeta 5: jardín inteligente">
+        </div>
+        <h3>El jardín inteligente será una realidad.</h3>
+        <p>Desde riego automatizado hasta cultivos gestionados por sensores, la tecnología transformará los espacios verdes en ecosistemas autónomos y eficientes.</p>
+        <button>Ver más</button>
+      </div>
+    </section>
+  </main>
+
+  <div class="formulario formulario-desktop">
+    <h2>¡Suscribite a nuestra newsletter!</h2>
+    <p>Enterate de todas las novedades del mundo de la tecnología.</p>
+    <form>
+      <input type="email" placeholder="ej:usuario@correo.com" required />
+      <select>
+        <option>Recibir información diaria.</option>
+        <option>Recibir información semanal.</option>
+        <option>Recibir información mensual.</option>
+      </select>
+      <button type="submit">Suscribirse</button>
+    </form>
+  </div>
+
+  <footer>
+    <p>Redes sociales</p>
+    <div class="iconos-sociales">
+      <a href="#" aria-label="Instagram">Instagram</a>
+      <a href="#" aria-label="Twitter">Twitter</a>
+      <a href="#" aria-label="Facebook">Facebook</a>
+      <a href="#" aria-label="LinkedIn">LinkedIn</a>
+    </div>
+  </footer>
+</body>
+</html>
